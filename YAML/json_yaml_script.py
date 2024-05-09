@@ -6,7 +6,7 @@ import traceback
 
 
 # Dashboard API key
-api_key = "62aaae34aa0cb4aa54526cd72230c0a1b1a40ddf"
+api_key = "your_org_api_key"
 dashboard = meraki.DashboardAPI(api_key, caller="PyCharm/2023.3 JetBrains")
 
 # Get the organizations that the user has privileges on
