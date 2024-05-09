@@ -1,0 +1,24 @@
+#This is the configuration file for creating vlans
+#For more information check https://developer.cisco.com/meraki/api-v1/create-network-appliance-vlan/
+
+vlans:
+  - id: <int>
+    name: My_vlan
+    subnet: 10.10.10.0/24
+    applianceIp: 10.10.10.1
+    groupPolicyId: ""
+    template: same            #Valid values are 'same', 'unique'
+    # cidr: 10.10.10.0/24
+    mask: 28
+    mandatoryDhcp:
+      enabled: false
+    ipv6:
+      enabled: false
+    #  prefixAssignments:
+    #    - autonomous: false
+    #      staticPrefix: "2001:db8:3c4d:15::/64"
+    #      staticApplianceIp6: "2001:db8:3c4d:15::1"
+    #      origin:
+    #        type: internet
+    #        interfaces:
+    #          - wan0

@@ -1,0 +1,15 @@
+#This is the configuration file for updating appliance layer 3 outbound ACLs
+#For more information check
+# https://developer.cisco.com/meraki/api-v1/update-network-appliance-firewall-l-3-firewall-rules/
+
+rules:
+  - comment: ""
+    policy: deny
+    protocol: Any           #Must be 'tcp', 'udp', 'icmp', 'icmp6' or 'any'
+    srcPort: Any            #Comma-separated list of source port(s) or 'any'
+    srcCidr: "10.10.10.0/24,10.10.20.0/24"    #Comma-separated list of ip addr, FQDN or 'any'
+    destPort: Any             #Comma-separated list of source port(s) or 'any'
+    destCidr: "10.10.30.0/24"    #Comma-separated list of ip addr, FQDN or 'any'
+    syslogEnabled: FALSE
+
+syslogDefaultRule: False

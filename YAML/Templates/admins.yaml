@@ -1,0 +1,12 @@
+#This is the configuration file for creating admins
+#For more information check https://developer.cisco.com/meraki/api-v1/create-organization-admin/
+
+admins:
+  - name: username
+    orgAccess: full              #Can be one of 'full', 'read-only', 'enterprise' or 'none'
+    authenticationMethod: Email  #Can be one of 'Email' or 'Cisco SecureX Sign-On'
+    email: username@company.com
+    network_access:               #Access can be one of 'full', 'read-only', 'guest-ambassador' or 'monitor-only'
+      net: full                   #Netwrok_name: access
+    tag_access:                   #Access can be one of 'full', 'read-only', 'guest-ambassador' or 'monitor-only'
+      user: full                  #Tag: access

@@ -1,0 +1,15 @@
+#Comment: This is the configuration file for creating the network
+#For more information check https://developer.cisco.com/meraki/api-v1/create-organization-network/
+
+networks:
+  - name: "net_name"
+    productTypes:
+      - "appliance"
+      - "switch"
+      - "wireless"
+    tags:
+      - "tag1"
+      - "tag2"
+    timeZone: "Europe/Stockholm"
+    notes: ""
+    #copyFromNetworkId: ""

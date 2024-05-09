@@ -1,0 +1,22 @@
+#This is the configuration file for creating SSIDs for an access point
+#Note: for more available options check: https://developer.cisco.com/meraki/api-v1/update-network-wireless-ssid/
+
+ssids:
+  - number: <int>
+    name: "My_ssid"
+    enabled: true
+    authMode: psk
+    psk: "My_password"
+    encryptionMode: wpa
+    wpaEncryptionMode: "WPA3 Transition Mode"
+    splashPage: None
+    ipAssignmentMode: "Bridge mode"
+    useVlanTagging: true
+    defaultVlanId: <int>
+    visible: true
+    dot11r:
+      enabled: true
+      adaptive: true
+    dot11w:
+      enabled: true
+      required: false

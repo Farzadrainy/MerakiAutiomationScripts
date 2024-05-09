@@ -1,0 +1,15 @@
+#This is the configuration file for updating management interface
+#For more information check https://developer.cisco.com/meraki/api-v1/update-device-management-interface/
+
+interfaces:
+  - serial: "AAAA-BBBB-CCCC"
+    wan1:
+      wanEnabled: "not configured"  #Can be one of 'enabled', 'disabled', and 'not configured'
+      usingStaticIp: true           #true --> static ip or false --> dhcp
+      vlan: <int>
+      staticIp: "10.10.10.10"
+      staticSubnetMask: "255.255.255.0"
+      staticGatewayIp: "10.10.10.1"
+      staticDns:                    #List of DNS server ips
+        - "10.10.10.1"
+        - "8.8.8.8"

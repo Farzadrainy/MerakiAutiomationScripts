@@ -1,0 +1,35 @@
+#This is the configuration file for updating switch port settings
+#For more information check https://developer.cisco.com/meraki/api-v1/update-device-switch-port/
+
+switchPorts:
+  - serial: "AAAA-BBBB-CCCC"
+    portId: <int>
+    name: "My_port"
+    tags:
+      - tag1
+      - tag2
+    enabled: true
+    type: access          #Must be 'trunk', 'access' or 'stack'
+    vlan: <int>
+    linkNegotiation: "Auto negotiate"
+    stpGuard: disabled
+    #allowedVlans: "1,3,5-10"
+    #voiceVlan: 20
+    #accessPolicyNumber: 111
+    #accessPolicyType: Open    #Can be one of 'Open', 'Custom access policy', 'MAC allow list' or 'Sticky MAC allow list'
+    #stickyMacAllowListLimit: 5
+    #adaptivePolicyGroupId: "123"
+    #portScheduleId: "1234"
+    #udld: "Alert only"     #Can be one of 'Alert only' or 'Enforce'
+    #flexibleStackingEnabled: false
+    #isolationEnabled: false
+    #peerSgtCapable: false
+    #poeEnabled: true
+    #rstpEnabled: true
+    #stormControlEnabled: false
+    #macAllowList: []
+    #stickyMacAllowList: []
+    #profile:
+    #  id: "1284392014819"
+    #  iname: "iname"
+    #  enabled: false
