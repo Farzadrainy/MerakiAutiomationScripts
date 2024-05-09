@@ -1,0 +1,26 @@
+{
+  "ssids": [
+    {
+      "number": <int>,
+      "name": "My_ssid",
+      "enabled": true,
+      "authMode": "psk",
+      "psk": "My_password",
+      "encryptionMode": "wpa",
+      "wpaEncryptionMode": "WPA3 Transition Mode",
+      "splashPage": "None",
+      "ipAssignmentMode": "Bridge mode",
+      "useVlanTagging": true,
+      "defaultVlanId": <int>,
+      "visible": true,
+      "dot11r": {
+        "enabled": true,
+        "adaptive": true
+      },
+      "dot11w": {
+        "enabled": true,
+        "required": false
+      }
+    }
+  ]
+}

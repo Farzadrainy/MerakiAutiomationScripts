@@ -1,0 +1,18 @@
+{
+  "admins": [
+    {
+      "name": "username",
+      "organization_access": "full",
+      "authentication_method": "Email",
+      "email": "username@company.example",
+      "network_access": {
+        "my_net_1": "full",
+        "my_net_2": "read-only"
+      },
+      "tag_access": {
+        "tag1": "full",
+        "tag2": "read-only"
+      }
+    }
+  ]
+}

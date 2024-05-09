@@ -1,0 +1,19 @@
+{
+  "interfaces":[
+    {
+      "serial": "AAAA-BBBB-CCCC",
+      "wan1": {
+        "wanEnabled": "not configured",
+        "usingStaticIp": true,
+        "vlan": <int>,
+        "staticIp": "10.10.10.10",
+        "staticSubnetMask": "255.255.255.0",
+        "staticGatewayIp": "10.10.10.1",
+        "staticDns": [
+          "10.10.10.1",
+          "8.8.8.8"
+        ]
+      }
+    }
+  ]
+}

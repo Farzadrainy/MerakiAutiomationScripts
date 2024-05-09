@@ -1,0 +1,14 @@
+{
+  "devices": [
+    {
+      "serial": "AAAA-BBBB-CCCC",
+      "name": "My_device",
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "notes": "",
+      "moveMapMarker": true
+    }
+  ]
+}

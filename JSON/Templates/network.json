@@ -1,0 +1,19 @@
+{
+  "networks": [
+    {
+      "copyFromNetId": "None",
+      "name": "My_network",
+      "productTypes": [
+        "appliance",
+        "switch",
+        "wireless"
+    ],
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "timeZone": "Europe/Stockholm",
+    "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vlans": [
+    {
+      "id": <int>,
+      "name": "my_vlan",
+      "subnet": "10.10.10.0/24",
+      "applianceIp": "10.10.10.1",
+      "groupPolicyId": "",
+      "template": "same",
+      "cidr": "10.10.10.0/24",
+      "mask": 28,
+      "mandatoryDhcp": {
+        "enabled": false
+      },
+      "ipv6": {
+        "enabled": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "comment": "",
+      "policy": "deny",
+      "protocol": "any",
+      "srcPort": "Any",
+      "srcCidr": "10.10.10.0/24,10.10.20.0/24",
+      "destPort": "Any",
+      "destCidr": "10.10.30.0/24",
+      "syslogEnabled": false
+    }
+  ],
+  "syslogDefaultRule" : false
+}
