@@ -1,0 +1,2 @@
+name,organization access,authentication method,email,(network:access),(tag:access)
+"username,full,Email,username@company.example,""(net1:full),(net2:full)"",""(tag1:full),(tag2:read-only)"""

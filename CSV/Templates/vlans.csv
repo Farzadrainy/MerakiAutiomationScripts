@@ -1,0 +1,2 @@
+id,name,subnet,interface_ip,group_policy_id,template,temp_cidr,temp_mask,mandatory_dhcp,ipv6_enabled
+vlan_id,name,10.10.10.0/24,10.10.10.1,,same,10.10.10.0/24,28,FALSE,FALSE

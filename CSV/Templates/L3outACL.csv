@@ -1,0 +1,3 @@
+comment,policy,protocol,srcPort,srcCidr,destPort,destCidr,syslogEnabled
+comment,allow,any,Any,"VLAN(10).*,VLAN(20).*",Any,any,FALSE
+comment,deny,any,Any,"192.168.255.0/24,10.10.10.0/24",Any,"10.10.0.0/24",FALSE

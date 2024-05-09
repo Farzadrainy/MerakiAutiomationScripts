@@ -1,0 +1,2 @@
+serial,interface_id,name,tags,enabled,type,vlan,link_nego
+AAAA-BBBB-C0C0,1,port_name,"tag1,tag2,...",TRUE,access,vlan_id,Auto negotiate

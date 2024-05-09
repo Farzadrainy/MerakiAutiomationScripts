@@ -1,0 +1,2 @@
+number,name,enabled,auth_mode,password,encrypt_mode,wpa_encrypt_mode,splash_mode,ip_assign_mode,vlan_tagging,tagged_vlan,visable
+0,ssid_name,TRUE,psk,pass,wpa,WPA3 Transition Mode,None,Bridge mode,TRUE,vlan_id,TRUE

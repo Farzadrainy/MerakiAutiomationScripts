@@ -1,0 +1,2 @@
+copy_from_net_id,name,product_types,tags,time_zone,notes
+,net_name,"appliance,switch,wireless","tag1,tag2,...",Europe/Stockholm,comment
