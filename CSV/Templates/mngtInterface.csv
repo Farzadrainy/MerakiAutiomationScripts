@@ -1,2 +1,2 @@
 serial,wan,using_static_ip,vlan,ip,subnet_mask,gateway_ip,static_dns,wan_enabled
-"AAAA-BBBB-C0C0,wan1,TRUE,10,10.10.10.2,255.255.255.0,10.10.10.1,""10.10.10.1,8.8.8.8"",not configured"
+AAAA-BBBB-C0C0,wan1,TRUE,10,10.10.10.2,255.255.255.0,10.10.10.1,"10.10.10.1,8.8.8.8",not configured"
